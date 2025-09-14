@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header mit Logo + Menü */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #222;
+    /* dunkler Hintergrund */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Logo Bereich */
+.logo {
+    background-image: url(./texturen/images/LaPaloma.png);
+    background-repeat: no-repeat;
+    position: relative;
+    left: 390px;
+    font-size: 28px;
+    height: 215px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* Menü */
+nav {
+    background-color: #333;
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4d03f;
+    /* gold-gelb beim Hover */
+}
+
+/* Inhalt */
+main {
+    padding: 40px;
+    background: #f9f9f9;
+    min-height: 100vh;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
