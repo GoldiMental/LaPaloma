@@ -20,8 +20,8 @@ header {
 .logo {
     background-image: url(./texturen/images/LaPaloma.png);
     background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    left: 390px;
     font-size: 28px;
     height: 215px;
     width: 100%;
