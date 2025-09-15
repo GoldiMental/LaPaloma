@@ -1,4 +1,6 @@
 body {
+    flex-direction: column;
+    align-items: center;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -81,4 +83,80 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.bl-feed {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: system-ui, sans-serif;
+    max-width: 680px;
+}
+
+.bl-status {
+    color: #555;
+    margin: 6px 0 12px;
+}
+
+.bl-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bl-item {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.bl-time {
+    width: 90px;
+    font-variant-numeric: tabular-nums;
+    color: #444;
+}
+
+.bl-teams {
+    flex: 1;
+}
+
+.bl-name {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.bl-score {
+    min-width: 62px;
+    text-align: right;
+    font-weight: 600;
+}
+
+.bl-live {
+    color: #c00;
+    font-weight: 600;
+}
+
+.bl-finished {
+    color: #2a7;
+}
+
+.bl-soon {
+    color: #0057b7;
+    font-weight: 600;
+}
+
+/* Blaues Badge für "In Kürze" */
+.bl-badge {
+    display: inline-block;
+    padding: 2px 6px;
+    border-radius: 6px;
+    background: #f2f6ff;
+}
+
+.bl-muted {
+    color: #777;
 }
